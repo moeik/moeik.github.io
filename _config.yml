@@ -57,7 +57,7 @@ postPatterns: 'food'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/moeik'
- email: 'mailto:i@aroins.com'
+  email: 'mailto:i@aroins.com'
   instagram: 'https://www.instagram.com/moeik.cn/'
   zhihu: 'https://www.zhihu.com/people/du-shang-jiu-guan-wang-bei/activities'
 
