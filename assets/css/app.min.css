@@ -184,25 +184,37 @@ a {
 }
 
 .banner-theme-default {
+	background: -webkit-linear-gradient(0deg,#CCCCFF,#99CCFF);
+	background: -o-linear-gradient(0deg,#CCCCFF,#99CCFF);
+	background: -moz-linear-gradient(0deg,#CCCCFF,#99CCFF);
+	background: linear-gradient(100deg,#CCCCFF,#99CCFF)
+}
+/*
+.banner-theme-default {
 	background: -webkit-linear-gradient(0deg,#3cd5ff,#007aff);
 	background: -o-linear-gradient(0deg,#3cd5ff,#007aff);
 	background: -moz-linear-gradient(0deg,#3cd5ff,#007aff);
 	background: linear-gradient(100deg,#3cd5ff,#007aff)
 }
-
+*/
 .banner-theme-pink {
 	background: -webkit-linear-gradient(0deg,#ffce69,#fa709a);
 	background: -o-linear-gradient(0deg,#ffce69,#fa709a);
 	background: -moz-linear-gradient(0deg,#ffce69,#fa709a);
 	background: linear-gradient(100deg,#ffce69,#fa709a)
 }
-
+/*
 .themeColor-default {
 	background-color: #1494fb
 }
 
+*/
+.themeColor-default {
+	background-color: #99CCFF
+}
+
 .themeColor-pink {
-	background-color: #fc6794
+	background-color: #7a6e71
 }
 
 .home-content {
