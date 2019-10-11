@@ -57,7 +57,7 @@ postPatterns: 'ticTacToe'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/moeik'
-  email: 'i@arins.com'
+  email: 'mailto:i@arins.com'
   instagram: 'https://www.instagram.com/moeik.cn/'
   zhihu: 'https://www.zhihu.com/people/du-shang-jiu-guan-wang-bei/activities'
 
