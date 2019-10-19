@@ -9,11 +9,10 @@ function music() {
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 
-    if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) { //如果是上述设备就会以手机域名打开
-        // alert('手机端');
+    if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+
         document.getElementById("bgAudio").volume = 0.5;
-    } else { //否则就是电脑域名打开
-        // alert('电脑端');
+    } else {
         document.getElementById("bgAudio").volume = 0.1;
     }
 }
