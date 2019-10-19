@@ -11,7 +11,7 @@ function music() {
 
     if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) { //如果是上述设备就会以手机域名打开
         // alert('手机端');
-        document.getElementById("bgAudio").volume = 0.7;
+        document.getElementById("bgAudio").volume = 0.5;
     } else { //否则就是电脑域名打开
         // alert('电脑端');
         document.getElementById("bgAudio").volume = 0.1;
