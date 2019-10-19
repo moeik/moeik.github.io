@@ -1,3 +1,3 @@
 function music() {
-    document.getElementById("bgAudio").volume = 0.3;
+    document.getElementById("bgAudio").volume = 0.2;
 }
