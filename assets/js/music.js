@@ -11,9 +11,9 @@ function music() {
     return flag;
     }
     if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-        document.getElementById("bgAudio").volume = 0.5;
+        document.getElementById("bgAudio").volume = 0.4;
     } else if (/(Android)/i.test(navigator.userAgent)) {
-        document.getElementById("bgAudio").volume = 0.5;
+        document.getElementById("bgAudio").volume = 0.4;
     } else {
         document.getElementById("bgAudio").volume = 0.1;
 }
